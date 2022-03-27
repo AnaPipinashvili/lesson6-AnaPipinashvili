@@ -14,52 +14,52 @@
 	position: absolute;
 }
 .bird{
-	width: 400px;
-    height: 400px;    
+	width: 150px;
+    height: 150px;    
     animation: bird 8s infinite;
-    top: 400px;
-    left: 200px;
+    top: 150px;
+    left: 80px;
   
 }
 .sun{
-	width: 500px;
-    height: 500px;
+	width: 140px;
+    height: 140px;
     animation: sun 8s infinite;
-    top: 35px;
-    right: 1200px;
+    top: 10px;
+    right: 340px;
 }
 
 .boat{
-	width: 600px;
-    height: 600px;
+	width: 200px;
+    height: 200px;
     animation: boat 15s infinite;
-    bottom: 2500px;
-    right: 2500px;
+    bottom: 750px;
+    right: 750px;
 }
 .dog{
-	width: 600px;
-    height: 600px;    
+	width: 200px;
+    height: 200px;    
     animation: dog 8s infinite;
-    bottom: 600px;
-    left: 200px;
+    bottom: 200px;
+    left: 80px;
 
 }
 .girl{
-	width: 750px;
-    height: 750px;    
+	width: 250px;
+    height: 250px;    
     animation: girl 8s infinite;
-    bottom: 600px;
-    right: 100px;
+    bottom: 200px;
+    right: 80px;
 }
 
 
 @keyframes bird{
 	0%{left: 0px}
-	15%{left: 100px;}
-	30%{left: 400px;}
-	60%{left: 800px;}
-	80%{left: 1200px;}
-	100%{left: 2000px;}
+	15%{left: 10px;}
+	30%{left: 40px;}
+	60%{left: 80px;}
+	80%{left: 120px;}
+	100%{left: 200px;}
 } 
 @keyframes sun{
 	0%{transform: rotate(0deg);}
@@ -69,36 +69,36 @@
 
 }
 @keyframes boat{
-	0%{right: 2500px}
-	15%{right: 2650px;}
-	25%{right: 2750px;}
-	30%{right: 2900px;}
-	50%{right: 3000px;}	
-	80%{right: 3100px;}	
-	100%{right: 3200px;}
+	0%{right: 250px}
+	15%{right: 265px;}
+	25%{right: 275px;}
+	30%{right: 290px;}
+	50%{right: 300px;}	
+	80%{right: 310px;}	
+	100%{right: 320px;}
 
 }
 @keyframes dog {
 	0%{left: 0px;}
-	15%{left: 150px;}	
-	30%{left: 400px;}
-	50%{left: 600px;}
-	60%{left: 900px;}	
-	80%{left: 1300px;}
-	90%{left: 2000px;}
-	100%{left: 2928px;}
+	15%{left: 15px;}	
+	30%{left: 40px;}
+	50%{left: 60px;}
+	60%{left: 90px;}	
+	80%{left: 130px;}
+	90%{left: 200px;}
+	100%{left: 292px;}
 }
 @keyframes girl {
 	0%{right: 0px}
-	15%{right: 150px;}
-	25%{right: 250px;}
-	30%{right: 400px;}
-	50%{right: 600px;}
-	60%{right: 900px;}
-	70%{right: 1100px;}
-	80%{right: 1400px;}
+	15%{right: 15px;}
+	25%{right: 25px;}
+	30%{right: 40px;}
+	50%{right: 60px;}
+	60%{right: 90px;}
+	70%{right: 110px;}
+	80%{right: 140px;}
 	90%{right: 2000px;}
-	95%{right: 2500px;}
-	100%{right: 2900px;}
+	95%{right: 250px;}
+	100%{right: 290px;}
 
 }
